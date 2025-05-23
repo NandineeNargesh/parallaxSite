@@ -1,0 +1,83 @@
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        position: relative;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+        z-index: -1;
+    }
+    #first{
+        overflow-x: hidden;
+        overflow-y: auto;
+        height: 100vh;
+        perspective:10px;
+    }
+    .back, .for{
+    position:absolute;
+    height:100%;
+    width:100%;
+object-fit: cover;
+z-index: -1;
+}
+.for{
+    transform: translateZ(-20px) scale(3);
+   height: 80px;
+   width: 70px;
+   margin-bottom: -1000px;
+
+}
+.back{
+    transform: translateZ(-45px) scale(6);
+}
+h1{
+    position: absolute;
+    font-size: 9.91dvh;
+    text-shadow: 1.6px 1.6px 6px rgb(255, 255, 255);
+  top: 190px;
+}
+section{
+    background-color: rgb(52, 15, 15);
+    color: white;
+    padding: 5pc;
+    
+}
+ .one{
+    background: url("https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1685868498_goa_2.jpg.webp")no-repeat;
+}
+.two{
+    background: url("https://ik.imagekit.io/tvlk/blog/2023/06/go-and-share-di-chuyen-tu-pattaya-den-bangkok-31-1024x683.jpg?tr=dpr-2,w-675")no-repeat;
+   
+}
+.three{
+background: url("https://nishnaiholidays.com/wp-content/uploads/2023/04/Trip-To-Leh-Ladakhu.jpg")no-repeat;
+}
+.four{
+background:url("https://i.ytimg.com/vi/JipM3jYnhks/maxresdefault.jpg") ;
+}
+.info{
+
+letter-spacing:0.5px;
+word-spacing: 1px;
+
+font-size: 18px;
+}
+
+.class{
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    position:relative;
+
+}
+
+
